@@ -53,7 +53,7 @@ h3 {
 }
 
 .btn {
-    width: 10%;
+    width: 100%;
     font-family: 'Roboto Condensed' , sans-serif; 
     font-size: 1.4rem;
     font-weight: 300;
@@ -70,17 +70,19 @@ h3 {
 
 
 .footer {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-around;
+    align-items: start;
 }
 .btn img {
+    display: inline;
     width: 25px;
     height: auto;
 }
 
 a {
     text-decoration: none;
-    width: 100%;
+    width: auto;
     color: black;
 }
