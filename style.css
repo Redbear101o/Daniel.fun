@@ -117,9 +117,18 @@ a {
     width: 200px;
     height: 150px;
     border: 3px solid black;
-    border-radius: .5rem;
+    border-radius: .8rem;
 }
 
 .game_button:hover {
     border: 3px solid rgb(40, 40, 215);
+}
+
+
+h3 {
+    font-family: 'Roboto Condensed' , sans-serif; 
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
 }
