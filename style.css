@@ -3,15 +3,16 @@ html {
     padding: 0;
     height: 100%;
     width: 100%;
+    color: white;
 }
 
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    background-image: url(icons/R.gif);
+    background-size: cover;
+    background-repeat: repeat-y;
 }
-
 
 h2 {
     font-family: 'Roboto Condensed' , sans-serif; 
@@ -66,7 +67,7 @@ h4 {
     font-size: 1.4rem;
     font-weight: 300;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 4px;
     border-radius: .5rem
 }
@@ -89,10 +90,14 @@ h4 {
     height: auto;
 }
 
+.game_button:hover{
+    animation: play-gif 1s infinite;
+}
+
 a {
     text-decoration: none;
     width: auto;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .row {
@@ -116,8 +121,9 @@ a {
 .game_button {
     width: 200px;
     height: 150px;
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
     border-radius: .8rem;
+    animation:none;
 }
 
 .game_button:hover {
