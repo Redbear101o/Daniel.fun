@@ -21,10 +21,10 @@ document.getElementById('get-weather').addEventListener('click', function() {
                 weatherResult.innerHTML = `
                     <h2>Weather in ${city}</h2>
                     <img src="https://openweathermap.org/img/wn/${icon}@2x.png">
-                    <p>Temperature: ${temperature} °C</p>
+                    <p>Temperature: ${temperature} °F</p>
                     <p>Humidity: ${temperature} %</p>
                     <p>Description: ${description}</p>
-                    <p>Description: ${Max_temprature_today}°C</p>
+                    <p>Highest Temprature Today: ${Max_temprature_today}°F</p>
                 `;
                 console.log(response)
             } else {
