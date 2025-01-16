@@ -5,9 +5,10 @@ async function getPokemon(){
     const response = await fetch(URL);
     const json = await response.json()
     console.log(json)
-    display.src = '';
+    display.src = json.image;
     return json
 }
+
 
 
 
